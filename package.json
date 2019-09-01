@@ -17,7 +17,7 @@
 	"keywords": [ "hsc", "haloscript", "language", "bsl", "blamscript" ],
 	"icon": "icon.png",
 	"galleryBanner": {
-		"color": "#6d8cd8",
+		"color": "#252526",
 		"theme": "dark"
 	},
 	"preview": true,
