@@ -1,0 +1,23 @@
+{
+    "comments": {
+        "lineComment": ";"
+    },
+    "brackets": [
+        [ "(", ")" ]
+    ],
+    "autoClosingPairs": [
+        [ "(", ")" ]
+    ],
+    "autoCloseBefore": ":) \n\t",
+    "surroundingPairs": [
+        [ "(", ")" ],
+        [ "\"", "\"" ]
+    ],
+    "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\#\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)",
+    "folding": {
+        "markers": {
+            "start": "^\\s*;+\\s*(?:region\\b|<\\B)",
+            "end": "^\\s*;+\\s*(?:endregion\\b|>\\B)"
+        }
+    }
+}

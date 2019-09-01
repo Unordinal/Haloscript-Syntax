@@ -1,0 +1,37 @@
+{
+	"name": "haloscript-syntax",
+	"version": "0.1.2",
+	"publisher": "Unordinal",
+	"engines": {
+		"vscode": "^1.33.1"
+	},
+	"displayName": "Haloscript Syntax Highlighting",
+	"description": "",
+	"categories": [
+		"Programming Languages"
+	],
+	"icon": "./icon.png",
+	"preview": true,
+	"contributes": {
+		"languages": [
+			{
+				"id": "haloscript",
+				"aliases": [ "Haloscript", "hsc"],
+				"extensions": [ ".hsc" ],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "haloscript",
+				"scopeName": "source.hsc",
+				"path": "./syntaxes/haloscript.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "7bea60a8-645d-4076-b693-f07678fc838d",
+		"publisherId": "42882219-f708-446f-a05d-559ecced7052",
+		"publisherDisplayName": "Unordinal"
+	}
+}
